@@ -1,0 +1,16 @@
+#ifndef PIN_CONFIG_H
+#define PIN_CONFIG_H
+
+#include "driver/gpio.h"
+
+#define PIN_DHT11 GPIO_NUM_4
+#define PIN_MQ2_ADC_GPIO GPIO_NUM_1
+#define PIN_FLAME GPIO_NUM_5
+#define PIN_PIR GPIO_NUM_6
+#define PIN_OBSTACLE_SIGNAL GPIO_NUM_7
+#define PIN_MPU6050_SDA GPIO_NUM_11
+#define PIN_MPU6050_SCL GPIO_NUM_12
+#define PIN_ALARM_LED GPIO_NUM_13
+#define PIN_BUZZER GPIO_NUM_14
+
+#endif
